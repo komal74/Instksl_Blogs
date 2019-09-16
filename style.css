@@ -6,7 +6,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  margin-top: 60px;
+  margin-top: 65px;
 }
 #nav {
   width: 100%;
@@ -19,6 +19,7 @@ html, body {
   height: auto;
   background-color: #069e0d;
   color: #ffffff;
+  z-index: 222;
 }
 a:active {
   color: gold;
@@ -36,7 +37,7 @@ a:active {
     width: 100%;
 }
 .img-slider {
-  height: 490px;
+  height: 510px;
 }
 #p1 {
   margin-top: 20px;
@@ -64,7 +65,7 @@ a:active {
   background-color: #06da3b;
 }
 .events {
-    width: 90%;
+    width: 95%;
 }
 .event {
   color: #09f343;
