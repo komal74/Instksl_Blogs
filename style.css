@@ -17,9 +17,9 @@ html, body {
 }
 .mynavbar {
   height: auto;
-  background-color: #069e0d;
   color: #ffffff;
   z-index: 222;
+  transition: all 2s;
 }
 a:active {
   color: gold;
@@ -76,8 +76,8 @@ a:active {
   border-radius: 50%;
   background-color: rgb(6, 82, 82);
   text-align: center;
+  transition: all 2s;
 }
-
 @media screen and (max-width: 891px) {
   .img-slider {
     height: auto;

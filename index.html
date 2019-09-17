@@ -16,7 +16,8 @@
   <!--logo bar -->
   <div id="navbar">
     <header id="navigation">
-      <marquee behavior="scroll" direction="right" bgcolor="yellow" scrolldelay="50">//--This website coming soon Modifying ........
+      <marquee behavior="scroll" direction="right" bgcolor="yellow" scrolldelay="50">//--This website coming soon
+        Modifying ........
       </marquee>
       <div class="logobar" id="logobar">
         <div class="flex-h" id="social-media">
@@ -42,28 +43,26 @@
         <div class="nav collapse navbar-collapse ml-4 bg-info myNavbar" id="navbarNav">
           <ul class="navbar-nav ml-4 list-items nav-tabs font-weight-bolder">
             <li class="nav-item">
-              <a class="nav-link text-dark mr-1 active" href="index.html">HOME <span
+              <a class="nav-link text-white bg-info mr-1 active" href="index.html">HOME <span
                   class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark mr-1" href="index.html">ABOUT US</a>
+              <a class="nav-link text-white bg-info mr-1" href="#about">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark mr-1" href="index.html">POPULAR POST</a>
+              <a class="nav-link text-white bg-info mr-1" href="#popular">POPULAR POST</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark mr-1" href="index.html">MEMBERS</a>
+              <a class="nav-link text-white bg-info mr-1" href="#member">MEMBERS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark mr-1" href="#">GALLERY</a>
+              <a class="nav-link text-white bg-info mr-1" href="#update">UPDATES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark mr-1" href="#">UPDATES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark mr-1" href="index.html">CONTACT</a>
+              <a class="nav-link text-white bg-info mr-1" href="#footer">CONTACT</a>
             </li>
           </ul>
+          <button class="btn btn-primary btn-outline-light mx-5 my-sm-0 " type="submit">Sign In</button>
         </div>
       </nav>
     </header>
@@ -81,15 +80,31 @@
       <div class="carousel-inner img-slider">
         <div class="carousel-item active mySlides">
           <img src="bg-1.jpg" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
         </div>
         <div class="carousel-item mySlides">
           <img src="photo3.jpg" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
         </div>
         <div class="carousel-item mySlides">
           <img src="bg-2.jpg" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
         </div>
         <div class="carousel-item mySlides">
           <img src="bg-3.jpg" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev hash" href="#carouselExampleControls" role="button" data-slide="prev"
@@ -136,14 +151,14 @@
               “Look at the sparrows; they do not know what they will do in the next moment. Let us literally live from
               moment to moment.”– Mahatma Gandhi
             </P>
-            <button class="btn btn-light btns">Donate Us</button>
+            <button class="btn btn-light btns">Like Page</button>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- -------video and text of brif description------ -->
-  <section>
+  <section id="about">
     <div class="container-fluid position-relative video">
       <div class="row mt-2 mb-2">
         <div class="col-md-7 p-4 text-center">
@@ -171,9 +186,9 @@
 
   <!-- ----feature campaigns--- -->
 
-  <section>
+  <section id="update">
     <h2 class="font-weight-bold text-center p-3">
-      LATESTS
+      LATEST
       <span class="camp-text">UPDATES</span>
     </h2>
     <p class="pb-2 text-center container">
@@ -228,7 +243,7 @@
     </div>
   </section>
   <!-- ------upcoming events-------- -->
-  <section class="bg-light">
+  <section class="bg-light" id="popular">
     <h2 align="center" class="font-weight-bold p-4">
       POPULAR
       <span class="event">POST'S</span>
@@ -357,7 +372,26 @@
       <a href='#top'>Go Top</a>
     </div>
   </section>
-  <footer class="bg-secondary">
+  <!-- ------ community members ---- -->
+  <section id="member">
+    <h2 align="center" class="font-weight-bold p-4">
+      COMMUNITY
+      <span class="event">MEMBER</span>
+    </h2>
+    <div class="container bg-light">
+      <div class="row ml-5">
+        <div class="col-md-3 col-sm-6 mb-sm-3"><img src="photo3.jpg" alt="_BSH" class="rounded-circle border border-primary p-1"
+            height="120px;" width="120px;"></div>
+        <div class="col-md-3 col-sm-6 mb-sm-3"><img src="photo1.jpg" alt="_BSH" class="rounded-circle border border-primary p-1"
+            height="120px;" width="120px;"></div>
+        <div class="col-md-3 col-sm-6"> <img src="photo.jpg" alt="_BSH" class="rounded-circle border border-primary p-1"
+            height="120px;" width="120px;"></div>
+        <div class="col-md-3 col-sm-6 mb-sm-4"> <img src="photo2.jpg" alt="_BSH" class="rounded-circle border border-primary p-1"
+            height="120px;" width="120px;"></div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-secondary" id="footer">
     <div class="container-fluid text-center">
       <div class="row text-white">
         <div class="col-sm-4 p-4">
