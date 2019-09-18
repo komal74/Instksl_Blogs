@@ -30,7 +30,7 @@
   height: auto;
 }
 
-.logo { 
+.logo {
   margin-left: 50px;
 }
 
@@ -67,6 +67,7 @@
   background: #5abcfd;
   width: 100%;
 }
+
 .myNavbar ul li {
   letter-spacing: 0.5px;
 }
@@ -123,10 +124,11 @@ footer {
   display: flex;
   margin-bottom: 20px;
 }
+
 .blog {
-position: relative;
-margin: 0 auto;
-background: rgb(43, 37, 37);
+  position: relative;
+  margin: 0 auto;
+  background: rgb(43, 37, 37);
 }
 
 .blogs h6 {
