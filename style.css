@@ -3,60 +3,80 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html, body {
   width: 100%;
   height: 100%;
   margin-top: 65px;
 }
+
 #nav {
   width: 100%;
   z-index: 9999;
 }
+
 #logobar {
   display: flex;
 }
+
 .mynavbar {
   height: auto;
   color: #ffffff;
   z-index: 222;
   transition: all 2s;
 }
+
 a:active {
   color: gold;
 }
+
 .right-menu li {
   display: inline-block;
   margin-top: 30px !important;
 }
+
 .right-menu li {
   font-size: 18px;
   margin-right: 15px;
   cursor: pointer;
 }
+
 .slider {
-    width: 100%;
+  width: 100%;
 }
+
 .img-slider {
   height: 510px;
 }
+
 #p1 {
   margin-top: 20px;
 }
+
 #activity {
   width: 90%;
 }
+
+.para {
+  color: #030452;
+}
+
 .video {
   width: 90%;
 }
+
 .camp-text {
   color: red;
 }
+
 .feature {
   width: 90%;
 }
+
 .camp {
   margin-bottom: 20px;
 }
+
 .activity {
   width: auto;
   height: auto;
@@ -64,12 +84,15 @@ a:active {
   color: #ffffff;
   background-color: #06da3b;
 }
+
 .events {
-    width: 95%;
+  width: 95%;
 }
+
 .event {
   color: #09f343;
 }
+
 .go {
   width: 100px;
   height: 50px;
@@ -78,6 +101,25 @@ a:active {
   text-align: center;
   transition: all 2s;
 }
+
+#popular {
+  background-image: url("a12.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#about {
+  background-image: url("like.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#member {
+  background-image: url("a9.png");
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (max-width: 891px) {
   .img-slider {
     height: auto;
@@ -92,5 +134,3 @@ a:active {
     overflow: hidden;
   }
 }
-
-
