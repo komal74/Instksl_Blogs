@@ -8,6 +8,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin-top: 75px;
+  scroll-behavior: smooth;
 }
 
 #nav {
@@ -24,10 +25,6 @@ html, body {
   color: #ffffff;
   z-index: 222;
   transition: all 2s;
-}
-
-a:active {
-  color: gold;
 }
 
 .right-menu li {
@@ -57,8 +54,47 @@ a:active {
   width: 90%;
 }
 
+.row .activity::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #012e69;
+  transform: skew(2deg, 2deg);
+  z-index: -1;
+}
+
+.row #one:before {
+  background: linear-gradient(315deg, #ff0057, #e64a19);
+}
+
+.row #two:before {
+  background: linear-gradient(315deg, #00ff2a, #07b7ce);
+}
+
+.row #three:before {
+  background: linear-gradient(315deg, #e91e63, #5d02ff);
+}
+
 .para {
-  color: #030452;
+  color: #e2e2eb;
+}
+
+.row .activity a {
+  position: relative;
+  display: inline-block;
+  transition: 0.5s;
+  transform: translateY(-40px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.activity:hover a {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
 }
 
 .video {
@@ -82,7 +118,9 @@ a:active {
   height: auto;
   padding: 20px;
   color: #ffffff;
-  background-color: #06da3b;
+  cursor: progress;
+  /* background-color : #043677; */
+  /* background: linear-gradient(315deg,#ff0057,#e64a19); */
 }
 
 .events {
@@ -93,13 +131,19 @@ a:active {
   color: #09f343;
 }
 
-.go {
-  width: 100px;
+.gotopbtn {
+  position: fixed;
+  width: 50px;
   height: 50px;
-  border-radius: 50%;
-  background-color: rgb(6, 82, 82);
+  background: #5fa1e2;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
   text-align: center;
-  transition: all 2s;
+  line-height: 50px;
+  color: #ffffff;
+  font-size: 22px;
+  border-radius: 3px;
 }
 
 #popular {
@@ -109,7 +153,8 @@ a:active {
 }
 
 #about {
-  background-image: url("like.png");
+  background-image: url("a10.png");
+  /* background: #058b71; */
   background-position: center;
   background-size: cover;
 }

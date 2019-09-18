@@ -67,6 +67,9 @@
   background: #5abcfd;
   width: 100%;
 }
+.myNavbar ul li {
+  letter-spacing: 0.5px;
+}
 
 .drop-weight {
   font-weight: 500;
