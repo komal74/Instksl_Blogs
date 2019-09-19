@@ -45,6 +45,38 @@ html, body {
 .img-slider {
   height: 500px;
 }
+video {
+  object-fit: cover;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  color: rgb(175, 41, 41);
+  font-size: 5em;
+  letter-spacing: 0.1em;
+}
+
+h1 span {
+  display: inline-block;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(90deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+    filter: blur(0);
+  }
+}
 
 #p1 {
   margin-top: 20px;
@@ -98,7 +130,7 @@ html, body {
 }
 
 .video {
-  width: 90%;
+  width: 80%;
 }
 
 .camp-text {
