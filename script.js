@@ -21,8 +21,8 @@ function scrollFunction() {
     mySidebar.style.marginTop = "58px";
     navbar.style.background = "#0fe750";
   } else {
-    navbar.style.padding = "50px 10px";
-    nav.style.marginTop = "20px";
+    navbar.style.padding = "30px 10px";
+    nav.style.marginTop = "10px";
     navbar.style.transition = "all .5s";
     nav.style.transition = "all .6s";
     logo.style.display = "initial"

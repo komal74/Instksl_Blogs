@@ -7,7 +7,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  margin-top: 75px;
+  margin-top: 70px;
   scroll-behavior: smooth;
 }
 
@@ -50,34 +50,6 @@ video {
   height: auto;
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  width: 100%;
-  color: rgb(175, 41, 41);
-  font-size: 5em;
-  letter-spacing: 0.1em;
-}
-
-h1 span {
-  display: inline-block;
-  animation: animate 5s linear infinite;
-}
-
-@keyframes animate {
-  0% {
-    opacity: 0;
-    transform: rotate(90deg);
-    filter: blur(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: rotate(0deg);
-    filter: blur(0);
-  }
-}
-
 #p1 {
   margin-top: 20px;
 }
@@ -99,7 +71,7 @@ h1 span {
 }
 
 .row #one:before {
-  background: linear-gradient(315deg, #ff0057, #e64a19);
+  background: linear-gradient(315deg, #fc0a5a, #e64a19);
 }
 
 .row #two:before {
@@ -134,15 +106,11 @@ h1 span {
 }
 
 .camp-text {
-  color: red;
+  color: rgb(255, 0, 0)
 }
 
-.feature {
+.cards {
   width: 90%;
-}
-
-.camp {
-  margin-bottom: 20px;
 }
 
 .activity {
@@ -165,8 +133,8 @@ h1 span {
 
 .gotopbtn {
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: #5fa1e2;
   bottom: 40px;
   right: 50px;
@@ -203,6 +171,9 @@ h1 span {
   }
   #imageSlider {
     height: auto;
+  }
+  .cards {
+    width: 96%;
   }
 }
 
