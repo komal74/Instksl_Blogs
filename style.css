@@ -130,6 +130,21 @@ video {
 .event {
   color: #09f343;
 }
+.events img {
+  border-radius: 4px;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 0.45) 0.5s;
+}
+
+.event-img::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.event-img img:hover {
+  transform: translate(0%, -3%) scale(1.1);
+  transition: all 0.3sec;
+}
 
 .gotopbtn {
   position: fixed;
